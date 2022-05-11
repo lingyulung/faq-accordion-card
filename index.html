@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script defer type="module" src="./faq.js"></script>
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <!-- How many team members can I invite? You can invite up to 2 additional users
+    on the Free plan. There is no limit on team members for the Premium plan.
+    What is the maximum file upload size? No more than 2GB. All files in your
+    account must fit your allotted storage space. How do I reset my password?
+    Click “Forgot password” from the login page or “Change password” from your
+    profile page. A reset link will be emailed to you. Can I cancel my
+    subscription? Yes! Send us a message and we’ll process your request no
+    questions asked. Do you provide additional support? Chat and email support
+    is available 24/7. Phone lines are open during normal business hours. -->
+
+    <div class="container">
+      <div class="cardContainer">
+        <div class="imgContainer">
+          <div class="womanImg"></div>
+        </div>
+        <img class="boxImg" src="images/illustration-box-desktop.svg" />
+
+        <div class="faq">
+          <p class="title">FAQ</p>
+
+          <div class="allQuestions">
+            <div class="questionTab" id="q1">
+              <div class="questionAndArrow">
+                <p class="question">How many team members can I invite?</p>
+                <img
+                  class="arrow"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow"
+                  data-question="q1"
+                />
+              </div>
+              <p class="answer">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="questionTab" id="q2">
+              <div class="questionAndArrow">
+                <p class="question">What is the maximum file upload size?</p>
+                <img
+                  class="arrow"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow"
+                  data-question="q2"
+                />
+              </div>
+              <p class="answer">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="questionTab" id="q3">
+              <div class="questionAndArrow">
+                <p class="question">How do I reset my password?</p>
+                <img
+                  class="arrow"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow"
+                  data-question="q3"
+                />
+              </div>
+              <p class="answer">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="questionTab" id="q4">
+              <div class="questionAndArrow">
+                <p class="question">Can I cancel my subscription?</p>
+                <img
+                  class="arrow"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow"
+                  data-question="q4"
+                />
+              </div>
+              <p class="answer">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="questionTab" id="q5">
+              <div class="questionAndArrow">
+                <p class="question">Do you provide additional support?</p>
+                <img
+                  class="arrow"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow"
+                  data-question="q5"
+                />
+              </div>
+              <p class="answer">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/lingyulung?tab=repositories">Ling Yu Lung</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
